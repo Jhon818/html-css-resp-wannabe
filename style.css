@@ -76,22 +76,34 @@ img {
 
 @media screen and (max-width: 420px){
 
+  
+
+  
   .row{
+    width:420px;
     float: none;
+    clear: none;
+    margin: 0%;
   }
 
   #lezioni .row > .left{
     float: none;
-    width: 100%;
+    width:410px;
+  }
+
+  img{
+    margin-top: 10px;
+    height: 100px;
   }
 
   #lezioni .row > .right{
     float: none;
-    width: 100%;
+    width:410px;
   }
 
   .container{
     background-color: rosybrown;
+    width:420px;
   }
   
   #why.container.grey{
@@ -100,9 +112,11 @@ img {
 
   #steps .row > .left, #steps .row > .central, #steps .row > .right{
     float: none;
-    width: 100%;
+    width: 410px;
   }
-  
+
+  #why .row > .first, #why .row > .second, #why .row > .third {
+    width: 410px;
 }
 
 /*/ debug */
