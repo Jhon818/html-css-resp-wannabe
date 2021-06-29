@@ -74,9 +74,12 @@ img {
 
 /* debug */
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 419px){
 
   
+  body{
+    font-size: 12px;
+  }
 
   
   .row{
