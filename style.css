@@ -74,7 +74,7 @@ img {
 
 /* debug */
 
-@media screen and (max-width: 419px){
+@media screen and (min-width: 419px){
 
   
   body{
@@ -123,3 +123,5 @@ img {
 }
 
 /*/ debug */
+
+
